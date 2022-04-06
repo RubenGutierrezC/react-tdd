@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "name": "Refactoring",
+      "id": 1,
+      "description": "Non tempor deserunt reprehenderit minim nisi mollit ea elit velit. Duis sunt Lorem adipisicing labore aliqua aliqua dolore nulla deserunt non occaecat sit. Aute sit est qui consectetur irure. Velit eiusmod nostrud eiusmod do dolor quis ipsum Lorem id incididunt labore ex. Non ex incididunt est labore est mollit proident aliquip irure ipsum. Minim velit aliquip in cillum voluptate qui laboris excepteur sint incididunt minim mollit laboris officia. Duis est aliqua in nulla consectetur labore Lorem consectetur mollit minim ea. Consectetur voluptate dolor nostrud voluptate pariatur labore ex occaecat cupidatat id. Consectetur cupidatat do amet consectetur tempor sint eiusmod ea eiusmod."
+    },
+    {
+      "name": "Domain-driven design",
+      "id": 2,
+      "description": "Explains how to incorporate effective domain modeling into the software development process."
+    },
+    {
+      "name": "Building Microservices",
+      "id": 3,
+      "description": "Author Sam Newman provides you with a firm grounding in the concepts while diving into current solutions for modeling, integrating, testing, deploying, and monitoring your own autonomous services."
+    },
+    {
+      "name": "Acceptance Test Driven Development with React",
+      "id": 4,
+      "description": "This book describes how to apply the Acceptance Test Driven Development when developing a Web Application named bookish with React / Redux and other tools in react ecosystem."
+    }
+  ]
+}

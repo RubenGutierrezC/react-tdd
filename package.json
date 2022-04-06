@@ -7,24 +7,36 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "e2e": "cypress run",
-    "stub-server": "json-server --watch stub-server/db.json --port 8080"
+    "test": "vitest",
+    "stub-server": "json-server --watch stub-server/books.json --port 8080",
+    "test-server": "node stub-server/server.ts"
   },
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.3",
     "axios": "^0.26.1",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "wouter": "^2.8.0-alpha.2"
   },
   "devDependencies": {
     "@cypress/react": "^5.12.4",
     "@cypress/vite-dev-server": "^2.2.2",
+    "@testing-library/cypress": "^8.0.2",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "12.1.4",
+    "@testing-library/user-event": "^14.0.4",
+    "@types/lodash": "^4.14.181",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
     "@vitejs/plugin-react": "^1.0.7",
     "cypress": "^9.5.3",
+    "jsdom": "^19.0.0",
+    "json-server": "^0.17.0",
     "typescript": "^4.5.4",
-    "vite": "^2.9.0"
+    "vite": "^2.9.0",
+    "vitest": "^0.8.2"
   }
 }
